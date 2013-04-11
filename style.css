@@ -1,0 +1,15 @@
+html body header section nav div { margin: 0px; padding: 0px;}
+#driver{
+    border: 1px solid yellow;
+    width: 100px;
+    position: relative;
+    float: left;
+    height: 100px;
+    }
+#cv_viewer{
+    border: 1px solid red;
+    width: 600px;
+    position: relative;
+	float: left;
+    
+    }
