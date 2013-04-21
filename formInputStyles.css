@@ -1,0 +1,30 @@
+input.personal_info_input{
+	border: 1px solid orange;
+	border-radius: 5px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 3px;
+	}
+label{ margin-top: 10px; margin-right: 15px;  font-size: 18px; line-height: 30px;}
+	
+input#names{
+	width: 280px;
+	}
+input#town{
+	width: 195px;
+	}
+input#post_code{
+	width: 60px;
+	}
+input#address{
+	width: 264px;
+	}
+input#country{
+	width: 200px;
+	}
+input#phone{
+	width: 150px;
+	}
+input#email{
+	width: 150px;
+	}	

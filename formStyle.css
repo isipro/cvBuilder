@@ -1,0 +1,82 @@
+html, body, div, section, header, h1, h2, h3, h4, h5{
+	margin: 0;
+	padding: 0;
+	}
+div#main_header{
+	}
+body{
+	background-color: #fffe8e;
+	}
+#wrapper{
+	border: 0px solid green;
+	width: 100%;
+
+	margin:0;
+	padding:0;
+	background-color: #fffe8e;
+
+	}
+h3{
+	height: 25px;
+	border: 0px solid red;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	}
+section#cv_form_menu{
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	border-right: 3px solid orange;
+	border-bottom: 3px solid orange;
+	width: 250px;
+	height: 700px;
+	background-color: #ffb956;
+	float: left;
+	border-radius: 10px 50px;
+	box-shadow: 5px 0px 3px black;
+	z-index: 1;
+	}
+nav#cv_navigation{
+	}
+section#cv_form_section{
+	border-left: 3px solid d3d100;
+	background-color: #fffe8e;
+	width: 380px;
+	position: relative;
+	margin-left: 330px;
+	float: left;
+	}
+
+section#cv_overview{
+	height: 750px;
+	width: 500px;
+	border: 1px solid grey;
+	background-color: #e7d4b9;
+	border-radius: 5px 10px 100px 5px;
+	position: fixed;
+	top: 5px;
+	left: 750px;
+	}	
+	
+section#personal_info{
+	padding-left: 10px;
+	}
+section#working_experience{
+	padding-left: 10px;
+	}
+section#education{
+	padding-left: 10px;
+	}
+section#skills_and_competences{
+	padding-left: 10px;
+	}
+section#additional_information{
+	padding-left: 10px;
+	}
+section#documents{
+	padding-left: 10px;
+	}
+
+button#personal_info_submitter{
+	width: 100px;
+	}
