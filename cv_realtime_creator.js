@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('button').click(function(){
+	$('button#personal_info_submitter').click(function(){
 		
 				
 		var input_names = $("input[id=names]").val();
@@ -25,7 +25,28 @@ $(document).ready(function(){
 		$("div#cv_sex").html(input_sex);
 		$("div#cv_date_of_birth").html(input_date_of_birth);
 		$("div#cv_nationality").html(input_nationality);
-		
+		var cv_preview = document.getElementById("section_content_cv_personal_info");
+console.log(cv_preview.innerHTML);
+		 cv_preview_html = cv_preview.innerHTML;
 		/* $('link#style1').attr("href", "formInputStyles1.css") */
 	});
-});
+	
+	$('button#save_cv').click(function(){
+		url = "http://itstudio3.com/cvBuilder/createCV.php";
+		alert(cv_preview_html);
+		$.ajax({
+		    
+			type: 'POST',
+			url: url,
+			data: cv_preview_html,
+			success: function(data){
+				alert(data);
+			},
+			
+		});
+		return false;
+	});
+});
+
+
+

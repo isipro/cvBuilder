@@ -80,3 +80,11 @@ section#documents{
 button#personal_info_submitter{
 	width: 100px;
 	}
+	
+/* iFrame CV_overView*/
+#cv_frame{
+	margin: 0;
+	padding: 0;
+	border: 0px solid black;
+	width: 475px;
+	}
