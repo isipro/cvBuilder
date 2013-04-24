@@ -1,0 +1,41 @@
+#section_cv_personal_info{
+	border: 2px solid white;
+	height: 500px;
+	width: 490px;
+	background-color: white;
+	}
+
+#cv_personal_info{
+	border: 1px solid red;
+	height: 300px;
+	width: 150px;
+	float: left;
+	}
+#section_headings_cv_personal_info{
+	float: left;
+	}
+span.cv_personal_info_headings{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+	padding: 0 6px 5px 0;
+	margin-bottom: 5px;
+	width: 150px;
+	position: relative;
+	display: block;
+	height: 18px;
+	border-right: 1px solid #6c190b;
+	font-family: Georgia;
+	color: red;
+	}
+section#section_content_cv_personal_info{
+	border: 0px solid red;
+	height: 300px;
+	width: 300px;
+	float: left;
+	}
+.content_cv_personal_info{
+	padding-left: 10px;
+	 font: 16px TimesNewRoman, Sans-Serif; line-height: 20px; color: grey; 
+	}

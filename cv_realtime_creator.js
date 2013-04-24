@@ -46,6 +46,15 @@ console.log(cv_preview.innerHTML);
 		});
 		return false;
 	});
+	$('button#style_selector').click(function(){
+		/* var selected = $("#dropdown option:value").text(); */
+		var selected = $("#cv_styles").val(); 
+		console.log(selected);
+		var changeto = selected + ".css";
+		console.log(changeto);
+		$('link#style').attr("href", changeto);
+	});
+	
 });
 
 
